@@ -4,10 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class TestJdbc {
-
-	
 	public static void main(String[] args) {
-		
 		String jdbcUrl="jdbc:postgresql://localhost:5432/personal";
 		//String jdbcUrl="jdbc:postgresql://localhost:5432/personal?useSSL=false"; // to bypass SSL warings
 		String userName="postgres";
@@ -21,7 +18,5 @@ public class TestJdbc {
 		catch (Exception e) {
 		System.err.println(e.getMessage());
 		}
-		
-		
 	}
 }
